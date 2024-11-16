@@ -12,14 +12,13 @@
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
-  }, "resolutions": {
-    "type-fest": "0.13.1"
   },
   "scripts": {
     "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "npm install --omit=dev"
   },
   "eslintConfig": {
     "extends": [
