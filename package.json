@@ -14,7 +14,6 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "postinstall": "npm install --omit=dev",
     "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
